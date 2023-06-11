@@ -7,7 +7,104 @@
 }
 
 
+:root {
+  --clr-scissors-gradient-dark: hsl(39, 89%, 49%);
+  --clr-scissors-gradient-lite: hsl(40, 84%, 53%);
+  --clr-paper-gradient-dark: hsl(230, 89%, 62%);
+  --clr-paper-gradient-lite: hsl(230, 89%, 65%);
+  --clr-rock-gradient-dark: hsl(349, 71%, 52%);
+  --clr-rock-gradient-lite: hsl(349, 70%, 56%);
+  --clr-lizard-gradient-dark: hsl(261, 73%, 60%);
+  --clr-lizard-gradient-lite: hsl(261, 72%, 63%);
+  --clr-cyan-dark: hsl(189, 59%, 53%);
+  --clr-cyan-lite: hsl(189, 58%, 57%);
+
+  --clr-dark-text: hsl(229, 25%, 31%);
+  --clr-score-text: hsl(229, 64%, 46%);
+  --clr-header-outline: hsl(217, 16%, 45%);
+
+  --clr-radial-gradient-lite: hsl(214, 47%, 23%);
+  --clr-radial-gradient-dark: hsl(237, 49%, 15%);
+  --clr-shadow: hsl(0, 4%, 10%);
+  --clr-shadow2: hsl(0, 36%, 90%);
+}
+
+
 html {
   font-size: 16px;
 }
 
+body {
+  min-width: 100vh;
+  min-height: 100vh;
+  font-family: "Barlow Semi Condensed", sans-serif;
+  background-color: var(--clr-radial-gradient-dark);
+}
+.heading-container {
+  padding: 4rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.score-title-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 45rem;
+  height: 10rem;
+  border-radius: 2rem;
+  border: 4px solid hsl(217, 16%, 45%);
+}
+.little-board-background {
+  display: flex;
+  width: 17rem;
+  height: 6.3rem;
+  background-color: white;
+  border-radius: 0.5rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.for-score-text {
+  text-transform: uppercase;
+  color: var(--clr-score-text);
+}
+.for-num12 {
+  font-size: 3.5rem;
+  color: var(--clr-dark-text);
+  font-weight: 700;
+}
+.score-and-title {
+  display: flex;
+  flex-direction: row;
+  gap: 15rem;
+}
+.logo-container {
+  width: 100%;
+}
+.gradient-img-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  /* background-color: aqua; */
+}
+.first-two-imgs {
+  margin-top: -4rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+}
+.choice-btn {
+  border: none;
+  outline: none;
+  background: none;
+  cursor: pointer;
+  position: relative;
+  background-color: transparent;
+  padding: 0;
+}
