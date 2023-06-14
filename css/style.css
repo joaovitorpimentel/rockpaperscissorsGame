@@ -169,3 +169,33 @@ body {
   z-index: -1;
   box-shadow: inset 0 -0.5rem 0 hsl(349, 69%, 39%);
 }
+
+
+.img-common {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 10rem;
+  height: 10rem;
+  background: white;
+  border-radius: 50%;
+  place-items: center;
+  box-shadow: inset 0 0.5rem 0 var(--clr-shadow2);
+}
+
+.triangle-container {
+  width: 20rem;
+  height: 18rem;
+  background-image: url(/images/bg-triangle.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.individual-img {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-top: 3rem;
+}
