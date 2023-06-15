@@ -363,3 +363,74 @@ body {
   align-items: center;
 }
 
+.exit-btn1 {
+  margin-top: -1rem;
+}
+.exit-btn {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+.win-or-lose {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5rem;
+}
+.you-win {
+  text-transform: uppercase;
+  font-size: 3.2rem;
+  color: white;
+}
+.btn-win {
+  padding: 0.8rem 3.8rem 0.8rem 3.8rem;
+  border-radius: 0.5rem;
+  border: none;
+  cursor: pointer;
+}
+.element-win-lose {
+  margin-top: -5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.btn-win {
+  text-transform: uppercase;
+  color: var(--clr-radial-gradient-dark);
+  font-weight: 700;
+}
+.btn-win:hover {
+  color: var(--clr-rock-gradient-dark);
+}
+
+
+@media screen and (max-width: 998px) {
+  .score-and-title {
+    gap: 1rem;
+  }
+  .score-title-container {
+    padding: 0.5rem;
+    width: 29rem;
+  }
+  .rules-container {
+    margin-top: 7rem;
+    margin-left: -8rem;
+  }
+  .rules {
+    padding: 1rem 3rem 1rem 3rem;
+    cursor: pointer;
+    border: 2px solid hsl(217, 16%, 45%);
+    background: transparent;
+    border-radius: 0.5rem;
+    text-transform: uppercase;
+    color: white;
+  }
+  .after-click-container {
+    gap: 3rem;
+  }
+  .element-win-lose {
+    margin-top: 0.5rem;
+  }
+}
