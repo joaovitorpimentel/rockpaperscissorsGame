@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
 let containerTwo = document.getElementById("next-page-container");
 containerTwo.style.display = "none";
 let containerThree = document.getElementById("next-page-container2");
@@ -45,26 +42,19 @@ document.getElementById("rock-img").addEventListener("click", function () {
   containerFour.style.display = "flex";
 });
 
->>>>>>> parent of 632e10c (Botão Rules)
 
-=======
->>>>>>> parent of e3fdb70 (git status)
 document.getElementById("exit-overlay").addEventListener("click", function () {
   let containerOne = document.getElementById("gradient-section");
   containerOne.style.display = "flex";
   let overlayContainer = document.getElementById("overlay-container");
   overlayContainer.style.display = "none";
 });
-<<<<<<< HEAD
+
 
 document.getElementById("rule-btn-main").addEventListener("click", function () {
   let OverlayContainerMain = document.getElementById("overlay-container");
   OverlayContainerMain.style.display = "flex";
 });
-<<<<<<< HEAD
-=======
->>>>>>> parent of e3fdb70 (git status)
-=======
 
 let paperImg = document.getElementById("paper-img");
 let removeEle = document.getElementById("remove-element-btn");
@@ -215,4 +205,4 @@ let scissorsMainElement = document.getElementById(
 );
 let rockMainElement = document.getElementById("rock-img" + rockDefault);
 let score = 0;
->>>>>>> parent of 632e10c (Botão Rules)
+
